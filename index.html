@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>HTML CSS</title>
+  </head>
+  <body>
+    <header class="top__nav">
+      <img width="250px" height="60px" src="./img/logo.png" alt="Logo" />
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <span class="menu-button icon-paw h2"></span>
+      </label>
+      <nav class="menu">
+        <ul>
+          <li><a class="menu__link btn__small" href="#intro">About</a></li>
+          <li><a class="menu__link btn__small" href="#info">Contacts</a></li>
+          <li>
+            <a class="menu__link btn__small" href="#opportunities">Lessons</a>
+          </li>
+          <li><a class="menu__link btn__small" href="#gallery">Gallery</a></li>
+          <li>
+            <a class="color__white" href="#subscribe">
+              <button class="menu__link btn__subscribe btn__small">
+                Subscribe
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="intro" class="intro__container">
+        <div class="intro__content purple-gradient">
+          <h1 class="h1 intro__title">Your puRRRfect educator</h1>
+          <img
+            class="intro__subtitle-image"
+            width="80px"
+            height="80px"
+            src="./img/intro_subtitle_img.png"
+            alt="Intro subtitle image"
+          />
+          <p class="title intro__subtitle-text">
+            Let's study, watch cool content and just have some fun together
+          </p>
+          <div class="intro__btn__container">
+            <button class="intro__button btn__subscribe btn">Subscribe</button>
+            <button class="intro__button btn intro__btn__watch">
+              <span class="icon-play"></span>
+              Watch intro
+            </button>
+          </div>
+        </div>
+        <img
+          class="intro_image"
+          width="400px"
+          height="490px"
+          src="./img/intro_img.png"
+          alt="intro image"
+        />
+      </section>
+      <section id="info" class="info__container purple-gradient">
+        <div class="info__statistics">
+          <div class="stat_item">
+            <span class="stat__item-icon icon-student sub__h min_width"></span>
+            <span class="title stat__item-title margin__center">Students</span>
+            <span class="stat__item-icon icon-student sub__h mid_width"></span>
+            <span class="sub__h stat__item-value margin__center">8500+</span>
+          </div>
+          <div class="stat_item">
+            <span class="stat__item-icon icon-lesson sub__h min_width"></span>
+            <span class="title stat__item-title margin__center">Lessons</span>
+            <span class="stat__item-icon icon-lesson sub__h mid_width"></span>
+            <span class="sub__h stat__item-value margin__center">200+</span>
+          </div>
+          <div class="stat_item">
+            <span class="stat__item-icon icon-like sub__h min_width"></span>
+            <span class="title stat__item-title margin__center">Likes</span>
+            <span class="stat__item-icon icon-like sub__h mid_width"></span>
+            <span class="sub__h stat__item-value margin__center">99k+</span>
+          </div>
+        </div>
+        <div class="info__comments">
+          <div class="comment__item">
+            <div id="comment__1" class="slider__item">
+              <img class="comment__photo" src="./img/user1.png" alt="user_1" />
+              <div class="comment__info">
+                <h5 class="title comment__username">John Doe</h5>
+                <p class="inner__small comment__text">
+                  It was really cool experience, I love it so much!
+                </p>
+              </div>
+            </div>
+            <div id="comment__2" class="slider__item">
+              <img class="comment__photo" src="./img/user2.png" alt="user_2" />
+              <div class="comment__info">
+                <h5 class="title comment__username">Sarah Smith</h5>
+                <p class="inner__small comment__text">
+                  I&apos;ve really enjoyed the lessons and the videos are so
+                  fun! I&apos;ll recommend it to my friends!
+                </p>
+              </div>
+            </div>
+            <div id="comment__3" class="slider__item">
+              <img class="comment__photo" src="./img/user3.png" alt="user_3" />
+              <div class="comment__info">
+                <h5 class="title comment__username">Sam Kollins</h5>
+                <p class="inner__small comment__text">
+                  Every day I&apos;m trying to find some time and watch few
+                  lessons. It&apos;s hilarious!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="comment__btns">
+            <a class="slider__select" href="#comment__1"></a>
+            <a class="slider__select" href="#comment__2"> </a>
+            <a class="slider__select" href="#comment__3"> </a>
+          </div>
+        </div>
+      </section>
+      <section id="opportunities" class="opportunities__container">
+        <div class="opportunities__summary">
+          <h2 class="opportunities__title h2">
+            Explore all opportunities of Catademy
+          </h2>
+          <p class="opportunities__subtitle inner__text">
+            You can find here tons of useful information and interesting, fun
+            content. All in one place. Let&apos;s go!
+          </p>
+        </div>
+        <div class="card__container">
+          <div class="opportunity background__purple">
+            <img
+              class="opportunity__image"
+              src="./img/opportunity1.png"
+              alt="opportunity"
+            />
+            <h3 class="opportunity__title sub__h">Group lessons</h3>
+            <p class="inner__text opportunity__subtitle">
+              Make new friends, join teams and learn in a fun and productive
+              way. We are waiting for you!
+            </p>
+          </div>
+          <div class="opportunity background__purple">
+            <img
+              class="opportunity__image"
+              src="./img/opportunity2.png"
+              alt="opportunity"
+            />
+            <h3 class="opportunity__title sub__h">Videos</h3>
+            <p class="inner__text opportunity__subtitle">
+              Search among more than 500 videos and you will definitely find
+              something interesting for you.
+            </p>
+          </div>
+          <div class="opportunity background__purple">
+            <img
+              class="opportunity__image"
+              src="./img/opportunity3.png"
+              alt="opportunity"
+            />
+            <h3 class="opportunity__title sub__h">Quizzes</h3>
+            <p class="inner__text opportunity__subtitle">
+              Test your knowledge in various tests and quizzes personally
+              selected for you
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="gallery__container" id="gallery">
+        <h2 class="h2 gallery__title">Enjoy Our Gallery</h2>
+        <p class="inner__text gallery__subtitle">
+          Do not be shy to review and like the photos
+        </p>
+        <div class="gallery_photos">
+          <div class="photo">
+            <img src="./img/gallery1.png" alt="gallery photo" />
+            <div class="gallery__photo__hover"></div>
+          </div>
+          <div class="photo">
+            <img src="./img/gallery2.png" alt="gallery photo" />
+            <div class="gallery__photo__hover"></div>
+          </div>
+          <div class="photo">
+            <img src="./img/gallery3.png" alt="gallery photo" />
+            <div class="gallery__photo__hover"></div>
+          </div>
+          <div class="photo">
+            <img src="./img/gallery4.png" alt="gallery photo" />
+            <div class="gallery__photo__hover"></div>
+          </div>
+          <div class="photo">
+            <img src="./img/gallery5.png" alt="gallery photo" />
+            <div class="gallery__photo__hover"></div>
+          </div>
+          <div class="photo">
+            <img src="./img/gallery6.png" alt="gallery photo" />
+            <div class="gallery__photo__hover"></div>
+          </div>
+        </div>
+      </section>
+      <section id="subscribe" class="subscribe__container">
+        <div class="subscribe__content purple-gradient">
+          <div class="subscribe__summary">
+            <h2 class="h2 subscribe__title">You are in great paws!</h2>
+            <p class="inner__small subscribe__subtitle"></p>
+          </div>
+          <div class="subscribe__input">
+            <input
+              class="inner__text email__input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your email address"
+            />
+            <button class="btn__subscribe btn__small btn__semi__circle">
+              Subscribe
+            </button>
+          </div>
+        </div>
+        <img
+          class="subscribe__image"
+          src="./img/subscribe.png"
+          alt="subscribe"
+        />
+      </section>
+    </main>
+    <footer>
+      <div class="footer__content">
+        <div class="social__networks">
+          <a class="social__link h3" href="#">
+            <span class="icon-yt"></span>
+          </a>
+          <a class="social__link h3" href="#">
+            <span class="icon-svg"></span>
+          </a>
+          <a class="social__link h3" href="#">
+            <span class="icon-fb"></span>
+          </a>
+        </div>
+        <div class="links">
+          <a class="footer__link inner__text" href="#">Contacts</a>
+          <a class="footer__link inner__text" href="#">FAQ</a>
+          <a class="footer__link inner__text" href="#">Privacy policy</a>
+          <a class="footer__link inner__text" href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
